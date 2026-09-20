@@ -40,3 +40,26 @@ python -m pytest -q test_convert.py
 
 Tests cover missing keys, quoting, Unicode, supported delimiters, malformed input,
 field preservation, duplicate keys/headers, and prevention of output overwrites.
+
+Example JSON input for `json-to-csv`:
+
+```json
+[{"id":"001","note":"hello, world"},{"id":"002"}]
+```
+
+CSV output:
+
+```csv
+id,note
+001,"hello, world"
+002,
+```
+
+Running `csv-to-json` on that CSV produces:
+
+```json
+[
+  {"id": "001", "note": "hello, world"},
+  {"id": "002", "note": ""}
+]
+```
