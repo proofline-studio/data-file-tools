@@ -1,0 +1,9 @@
+{
+  "mode": "source_package",
+  "operation": "csv_to_json",
+  "parameters": {
+    "delimiter": "auto",
+    "json_format": "pretty"
+  },
+  "schema_version": 1
+}

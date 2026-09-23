@@ -1,0 +1,13 @@
+{
+  "input": {
+    "path": "input.data",
+    "sha256": "ba07e91b5dbc73ff7658d51c1675f319afe4774a6f9727a79bd950f75fd3861a"
+  },
+  "mode": "processed_data",
+  "operation": "csv_to_json",
+  "parameters": {
+    "delimiter": "auto",
+    "json_format": "pretty"
+  },
+  "schema_version": 1
+}
