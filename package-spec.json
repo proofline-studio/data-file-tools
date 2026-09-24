@@ -1,0 +1,20 @@
+{
+  "mode": "source_package",
+  "operation": "clean_csv",
+  "parameters": {
+    "dedupe": {
+      "casefold": false,
+      "fields": [
+        "id"
+      ],
+      "keep": "first_valid"
+    },
+    "invalid_rows": "reject",
+    "validators": {
+      "id": [
+        "required"
+      ]
+    }
+  },
+  "schema_version": 1
+}

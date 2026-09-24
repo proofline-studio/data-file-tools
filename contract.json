@@ -1,0 +1,24 @@
+{
+  "input": {
+    "path": "input.data",
+    "sha256": "bdcc879f81f97464f3a3cde25696d13ab62e34f22dd6e6ddc8dcfbee5711a740"
+  },
+  "mode": "processed_data",
+  "operation": "clean_csv",
+  "parameters": {
+    "dedupe": {
+      "casefold": false,
+      "fields": [
+        "id"
+      ],
+      "keep": "first_valid"
+    },
+    "invalid_rows": "reject",
+    "validators": {
+      "id": [
+        "required"
+      ]
+    }
+  },
+  "schema_version": 1
+}
