@@ -1,0 +1,6 @@
+{
+  "mode": "source_package",
+  "operation": "json_to_csv",
+  "parameters": {},
+  "schema_version": 1
+}
