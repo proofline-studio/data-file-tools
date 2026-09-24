@@ -1,0 +1,1 @@
+{"exact_net_amount":true,"limits":{"rpc_response_bytes":4194304,"rpc_timeout_seconds":20},"mint":"EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v","network":"solana-mainnet-beta","operation":"verify_solana_usdc","read_only":true,"requires_model":false,"runtime_inputs":["recipient","amount","signature","rpc_url","min_block_time"],"schema_version":1}
