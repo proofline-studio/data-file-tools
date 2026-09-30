@@ -1,0 +1,7 @@
+{
+  "python": ">=3.10",
+  "dependencies": {
+    "requests": ">=2.32.2,<3"
+  },
+  "installation": "See README.md for the pip command; this manifest does not install anything."
+}
