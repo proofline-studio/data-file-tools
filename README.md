@@ -1,0 +1,5 @@
+# Order CSV deduplication
+
+Python 3.10+ standard-library dedupe_orders.py and convert_text(text). Require order_id, customer_email and amount columns; preserve original field strings. Remove repeated identical parsed rows within order_id groups; preserve rows with the same order_id when any field differs. Flag and skip rows with empty order_id/customer_email/amount, preserving their complete values in a rejected list. Do not infer email deliverability or financial amount validity. Return clean records, rejected rows and exact rows_read, duplicates_removed, missing_fields and rows_written counts. Empty or header-only input returns zero counts. Limits: 10 MiB, 100000 rows, 1024 columns and one million cells.
+
+Run `python dedupe_orders.py input.csv output.json`. Output JSON contains records, rejected rows and summary; stdout prints summary. Test: `python -m unittest discover -v`. Missing_fields counts rejected unique rows, not individual empty cells. Exact-row duplicate removal precedes missing-field validation; distinct rows with the same order_id remain. Original field values are never silently changed.
