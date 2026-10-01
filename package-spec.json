@@ -1,0 +1,10 @@
+{
+  "mode": "source_package",
+  "operation": "capability_source_package",
+  "parameters": {
+    "capability": "data.table_transform.v1",
+    "options": {},
+    "template": "order_csv_key_dedupe"
+  },
+  "schema_version": 1
+}
