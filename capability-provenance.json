@@ -1,0 +1,16 @@
+{
+  "builder": "1.0.0",
+  "builder_sha256": "859fa1d89740a7b477e1b42bd4601f5b92b04d15b4d25010e2cc38d73ac74bd1",
+  "capabilities": {
+    "data.table_transform.v1": {
+      "code_sha256": "0be9f657028a522d17fe8c447c816e86fec116f94c71c0500583eb1f4c473aba",
+      "dependency_versions": {
+        "PyYAML": "6.0.3",
+        "jsonschema": "4.26.0"
+      },
+      "engine_sha256": "50ed9de5a8042fd0f725d6681273a2ef935b435669514d5be8ca9a7e3df3aa04",
+      "module": "data_ops"
+    }
+  },
+  "synthetic_inputs_only": true
+}
