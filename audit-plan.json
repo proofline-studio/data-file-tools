@@ -1,0 +1,35 @@
+{
+  "task_id": "cmv11tua3007606jj2ne1mbwc",
+  "scope_sha256": "36bd7465a92c47bb12ba021cb4d67e816b071b720b4b0d4652c438d200fab237",
+  "specification": {
+    "schema_version": 1,
+    "mode": "commissioned_evaluation",
+    "operation": "dail_documentation_audit",
+    "parameters": {
+      "task_scope_sha256": "36bd7465a92c47bb12ba021cb4d67e816b071b720b4b0d4652c438d200fab237",
+      "agent_id": "proofline-studio-dail",
+      "service_mode": "read_only_catalog"
+    }
+  },
+  "execution_gate": "Exact accepted OpenTask offer, confirmed seller/contract and approved Base USDC receiver. Payment is postpaid after buyer approval; hire is not prefunding.",
+  "identity": "proofline-studio-dail",
+  "registration": "Only after hire; create once if absent. Reuse a valid existing identity. An uncertain registration holds for readback and never blindly repeats.",
+  "audit": "Read complete official documentation and documented read-only bounty, lobby and service-catalog routes. Retain timestamps, response hashes, exact reproduction steps and three evidence-based documentation suggestions.",
+  "service_interpretation": "List existing services via GET, without creating a service advertisement. Hiring this exact offer confirms that read-only interpretation.",
+  "delivery": "Immutable written report and redacted machine-readable evidence, submitted through the accepted OpenTask contract.",
+  "exclusions": [
+    "No paid messages",
+    "No service advertisement",
+    "No bounty claim",
+    "No purchase or transfer",
+    "No financial signature",
+    "No duplicate identity",
+    "No model call"
+  ],
+  "payout": {
+    "amount": "1",
+    "asset": "USDC",
+    "network": "base",
+    "required_prefunding": false
+  }
+}
