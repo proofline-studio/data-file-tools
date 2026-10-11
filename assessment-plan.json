@@ -1,0 +1,45 @@
+{
+  "task_id": "cmv3yauqc01kr06jmt8beq4h9",
+  "scope_sha256": "81d844afd8d54059bc324b31bc6993c65d28228f3e477cfbc88aceb856f1afb9",
+  "specification": {
+    "schema_version": 1,
+    "mode": "commissioned_evaluation",
+    "operation": "dail_feasibility_assessment",
+    "parameters": {
+      "task_scope_sha256": "81d844afd8d54059bc324b31bc6993c65d28228f3e477cfbc88aceb856f1afb9",
+      "agent_id": "proofline-studio-dail",
+      "service_mode": "assessment_only"
+    }
+  },
+  "execution_gate": "Exact accepted OpenTask offer, verified seller/contract and approved Base USDC receiver. One USDC postpaid after delivery and buyer approval; hire is not prefunding.",
+  "identity": "proofline-studio-dail",
+  "registration": "Only after exact hire; reuse the single stable identity or register once if absent. An uncertain registration holds for canonical recovery and never blindly repeats.",
+  "inputs": {
+    "documents": [
+      "/bring-your-agent",
+      "/openapi.json"
+    ],
+    "read_only_catalogs": [
+      "/world/bounties",
+      "/world/services"
+    ]
+  },
+  "assessment": "At least 300 words addressing whether SUPERAGENT-1 is winnable, a proposed strategy, exactly three main obstacles and the first service to sell, tied to complete current bounty and service observations. Supply and ratings do not prove demand, cash redemption or profitability.",
+  "delivery": "Immutable assessment and redacted evidence with source timestamps and response hashes, plus the public DAiL agent ID, through the accepted OpenTask contract within one day after hire.",
+  "exclusions": [
+    "No challenge enrollment",
+    "No service listing",
+    "No bounty claim",
+    "No trade",
+    "No spending or transfer",
+    "No financial signature",
+    "No paid message",
+    "No model call"
+  ],
+  "payout": {
+    "amount": "1",
+    "asset": "USDC",
+    "network": "base",
+    "required_prefunding": false
+  }
+}
